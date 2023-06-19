@@ -1,0 +1,240 @@
+@font-face{
+    font-family: 'NeurialGroteskBold';
+    src: url('../fonts/NeurialGroteskBold.eot');
+    src: url('../fonts/NeurialGroteskBold.eot') format('embedded-opentype'),
+         url('../fonts/NeurialGroteskBold.woff2') format('woff2'),
+         url('../fonts/NeurialGroteskBold.woff') format('woff'),
+         url('../fonts/NeurialGroteskBold.ttf') format('truetype'),
+         url('../fonts/NeurialGroteskBold.svg#NeurialGroteskBold') format('svg');
+}
+@font-face{
+    font-family: 'NeurialGroteskMedium';
+    src: url('../fonts/NeurialGroteskMedium.eot');
+    src: url('../fonts/NeurialGroteskMedium.eot') format('embedded-opentype'),
+         url('../fonts/NeurialGroteskMedium.woff2') format('woff2'),
+         url('../fonts/NeurialGroteskMedium.woff') format('woff'),
+         url('../fonts/NeurialGroteskMedium.ttf') format('truetype'),
+         url('../fonts/NeurialGroteskMedium.svg#NeurialGroteskMedium') format('svg');
+}
+@font-face {
+    font-family: 'NeurialGroteskRegular';
+    src: url('../fonts/NeurialGroteskRegular.eot');
+    src: url('../fonts/NeurialGroteskRegular.eot') format('embedded-opentype'),
+         url('../fonts/NeurialGroteskRegular.woff2') format('woff2'),
+         url('../fonts/NeurialGroteskRegular.woff') format('woff'),
+         url('../fonts/NeurialGroteskRegular.ttf') format('truetype'),
+         url('../fonts/NeurialGroteskRegular.svg#NeurialGroteskRegular') format('svg');
+}
+@font-face {
+    font-family: 'NeurialGroteskLight';
+    src: url('../fonts/NeurialGroteskLight.eot');
+    src: url('../fonts/NeurialGroteskLight.eot') format('embedded-opentype'),
+         url('../fonts/NeurialGroteskLight.woff2') format('woff2'),
+         url('../fonts/NeurialGroteskLight.woff') format('woff'),
+         url('../fonts/NeurialGroteskLight.ttf') format('truetype'),
+         url('../fonts/NeurialGroteskLight.svg#NeurialGroteskLight') format('svg');
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'NeurialGroteskRegular';
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    color: #333333;
+}
+.navbar-nav.me-auto{
+    margin-left: auto!important;
+    margin-right: 0px !important;
+}
+.space-left-right{
+    padding: 0px 50px;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    font-size: 22px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 15px 30px;
+}
+.spaceleft-right{
+    padding: 0px 60px;
+}
+.social-icons {
+    margin-right: 30px;
+}
+.social-icons ul {
+    margin: 0px;
+    padding: 0px;
+}
+.social-icons ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 5px;
+}
+.social-icons ul li a {
+    color: #000000;
+    font-size: 20px;
+}
+.btn.phnobtn {
+    border: 1px solid #000000;
+    background: #ffffff;
+    color: #000000;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.btn {
+    background: #FFC608;
+    border-radius: 30px;
+    width: 171px;
+    font-size: 18px;
+    padding: 15px 10px;
+    border: 0px;
+    color: #000000;
+    font-weight: 500;
+}
+.phnobtn{
+    width: 220px;
+}
+.banner-section-wrapper{
+    background-image: url("../images/bannerbg.png");
+    padding: 250px 0px 250px;
+    background-repeat: no-repeat;
+}
+.banner-section-wrapper h1{
+    font-weight: 700;
+    font-size: 80px;
+    font-family: 'NeurialGroteskBold';
+}
+.banner-section-wrapper img{
+    width: 100%;
+}
+.header-wrapper {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    padding: 20px 0px 0px;
+}
+.btn.grey-button{
+    width: 330px;
+    display: inline-block;
+    background-color: #E6FAFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.button-group.banner-button .btn{
+    font-size: 22px;
+    margin-right: 40px;
+    font-family: 'NeurialGroteskMedium';
+}
+.button-group.banner-button{
+    margin-top: 60px;
+}
+.btn.bookdemo{
+    font-size: 22px;
+    width: 220px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.btn.grey-button:hover{
+    color: #ffffff;
+    background-color: #0b5ed7;
+}
+.qrcode-section-wrapper .qrcode{
+    text-align: center;
+}
+.qrcode-section-wrapper{
+    margin-top: -250px;
+    padding-bottom: 150px;
+}
+.qrcode-content p{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 58px;
+    color: #000000;
+    text-align: center;
+    margin: 100px 0px 0px;
+}
+.unique-qr-portal h2{
+    font-size: 80px;
+    font-family: 'NeurialGroteskLight';
+    text-align: center;
+}
+.unique-qr-portal{
+    background-image: url("../images/herearebg.png");
+    padding: 200px 0px 300px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.thumb-style{
+    background: #F2F2E4;
+    border-radius: 28px;
+    padding: 40px 30px;
+    position: relative;
+    margin-bottom: 40px;
+    height: 530px;
+}
+.thumb-style h5{
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'NeurialGroteskMedium';
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.thumb-style p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.thumbicon{
+    margin-bottom: 30px;
+}
+.thumb-style a {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+.unique-qr-portal .thumbnail-row{
+    margin-top: 70px;
+}
+.getbest-section-title{
+    background-image: url(../images/layerbg.png);
+    background-position: top left;
+    padding: 200px 0px 0px;
+    margin-top: -200px;
+}
+.getbest-section-title h2{
+    font-family: 'NeurialGroteskLight';
+    font-size: 70px;
+    line-height: 77px;
+}
+.getbest-thumbnail h6{
+    font-size: 30px;
+    font-family: 'NeurialGroteskMedium';
+}
+.getbest-thumbnail{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.getbest-thumbnail-wrapper{
+    background-color: #BFF4B8;
+    padding: 60px 0px;
+}
+.layerbg-bottom{
+    background-image: url("../images/layerbg-bottom.png");
+    height: 185px;
+    background-position: bottom left;
+}
+.getbest-icon{
+    margin-bottom: 20px;
+}
+h2.section-title{
+    font-family: 'NeurialGroteskLight';
+    font-size: 70px;
+    line-height: 77px;
+}
+.trusted-by h2.section-title{
+    text-align: center;
+}
+.trusted-by{
+    padding: 100px 0px;
+}
