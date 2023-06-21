@@ -242,3 +242,156 @@ h2.section-title{
 .logos img{
     width: 100%;
 }
+.client-logos-wrapper .owl-nav{
+    text-align: center;
+    margin-top: 20px;
+}
+.client-logos-wrapper .owl-nav button span{
+    font-size: 20px;
+    display: inline-block;
+    top: -2px;
+    position: relative;
+}
+.client-logos-wrapper .owl-nav button{
+    margin: 0px 5px;
+    background-color: #BFF4B8 !important;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.video-section-wrapper h4{
+    font-size: 60px;
+    line-height: 80px;
+}
+.video-section-wrapper h4 b{
+    font-family: 'NeurialGroteskBold';
+}
+.video-section-wrapper a{
+    font-size: 18px;
+    line-height: 22px;
+    color: #006A43;
+    display: block;
+    margin-top: 50px;
+}
+.video-section-wrapper a i{
+    font-size: 30px;
+    line-height: 22px;
+    position: relative;
+    top: 6px;
+    color: #7233FF;
+}
+.owl-two.owl-carousel .owl-nav{
+    display: none;
+}
+.owl-two.owl-carousel button{
+    width: 16px;
+    height: 16px;
+    background: #FFFFFF;
+    border: 1px solid #EFC352;
+    border-radius: 100px;
+    margin: 0px 4px;
+}
+.owl-two.owl-carousel button.owl-dot.active{
+    background: #F4AE00;
+}
+.owl-two.owl-carousel .owl-dots{
+    margin-top: 30px;
+    text-align: center;
+}
+.footer-green{
+    background-color: #006A43;
+}
+.easylogo img{
+    width: auto;
+    margin-top: -130px;
+}
+.easylogo{
+    text-align: center;
+}
+.video-section-wrapper{
+    padding-bottom: 250px;
+}
+.readyto h2{
+    font-size: 80px;
+    font-family: 'NeurialGroteskBold';
+    line-height: 100px;
+    color: #ffffff;
+}
+.readyto p{
+    font-size: 28px;
+    font-family: NeurialGroteskRegular;
+    line-height: 52px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-green .btn.phnobtn{
+    width: 350px;
+}
+.footer-green .btn{
+    font-size: 22px;
+    font-family: 'NeurialGroteskMedium';
+}
+.btn.demobtn{
+    width: 230px;
+}
+.readyto .button-group{
+    margin-top: 30px;
+}
+.readyto{
+    padding: 122px 0px;
+}
+.footer-links h6{
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'NeurialGroteskBold';
+    margin-bottom: 20px;
+}
+.footer-links ul{
+    margin: 0px;
+    padding: 0px;
+}
+.footer-links ul li{
+    list-style: none;
+}
+.footer-links ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'NeurialGroteskMedium';
+    margin-bottom: 12px;
+    display: block;
+}
+.countries-list li{
+    width: 50%;
+    display: flex;
+}
+.countries-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-links ul li a i{
+    margin-left: 10px;
+}
+.main-footer {
+    padding: 80px 20px 50px;
+}
+.footer-subscribe h5{
+    font-size: 28px;
+    line-height: 42px;
+    font-family: 'NeurialGroteskMedium';
+}
+.footer-subscribe input{
+    background: #F5F5F5;
+    border-radius: 10px;
+    height: 68px;
+}
+.footer-subscribe .btn{
+    height: 68px;
+    border-radius: 10px;
+    width: 100%;
+}
