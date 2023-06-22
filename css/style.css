@@ -56,6 +56,7 @@ body{
     font-style: normal;
     font-weight: 500;
     padding: 15px 30px;
+    font-family: 'NeurialGroteskMedium';
 }
 .spaceleft-right{
     padding: 0px 60px;
@@ -92,6 +93,7 @@ body{
     border: 0px;
     color: #000000;
     font-weight: 500;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.10);
 }
 .phnobtn{
     width: 220px;
@@ -394,4 +396,168 @@ h2.section-title{
     height: 68px;
     border-radius: 10px;
     width: 100%;
+}
+.header-wrapper.inner-page-header{
+    position: static;
+}
+.qrcode img{
+    width: auto;
+}
+.banner-section-wrapper.rounded-corner-banners{
+    border-radius: 40px;
+    margin: 0px 60px;
+    background-color: #FEFADC;
+    background-image: none;
+    padding: 150px 0px 150px;
+}
+.banner-section-wrapper.rounded-corner-banners.marketing-banner{
+    padding: 150px 0px 450px;
+}
+.qrcode-section-wrapper.uniqueqrportal{
+    margin-top: -650px;
+    padding-bottom: 100px;
+}
+.qrcode-section-wrapper.uniqueqrportal.marketing-banner-image .qrcode-content p{
+    margin-top: 60px;
+    font-size: 30px;
+}
+.qrcode-section-wrapper.uniqueqrportal.marketing-banner-image .qrcode img{
+    width: 100%;
+}
+.feature-image {
+    text-align: center;
+}
+.feature-box-row{
+    align-items: center;
+    justify-content: center;
+}
+.feature-box h3{
+    font-size: 40px;
+    font-family: 'NeurialGroteskMedium';
+    margin-bottom: 30px;
+}
+.feature-box p{
+    font-size: 25px;
+    line-height: 40px;
+}
+.margin-bottom-100{
+    margin-bottom: 100px;
+}
+.feature-image img {
+    max-width: 100%;
+}
+.light-green-content{
+    border-radius: 100px 100px 0px 0px;
+    background: #BFF4B8;
+    padding: 60px;
+    text-align: center;
+}
+.light-green-content{
+    color: #006A43;
+    font-size: 22px;
+    line-height: 40px;
+    padding: 60px 60px 150px;
+}
+.trustedby-green{
+    margin-top: 100px;
+}
+.dark-green-content {
+    border-radius: 100px 100px 0px 0px;
+    background: #006A43;
+    margin-top: -100px;
+    z-index: 2;
+    position: relative;
+    padding: 100px 60px 60px;
+}
+.light-green-content b{
+    margin-top: 30px;
+    display: block;
+}
+.dark-green-content h2.section-title{
+    color: #ffffff;
+}
+.dark-green-content p{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 40px;
+}
+.drive-impact h3{
+    font-size: 60px;
+}
+.video-section-wrapper.drive-impact{
+    padding-top: 150px;
+}
+.tes-logo img{
+    max-width: 100%;
+    width: auto !important;
+}
+.testimonial-content h6{
+    display: flex;
+    align-items: center;
+}
+.tes-logo{
+    margin-left: 20px;
+}
+.testimonial-content{
+    border-radius: 21px;
+    background: #C1FFE1;
+    padding: 40px;
+}
+.testimonial-content p{
+    font-size: 28px;
+    line-height: 50px;
+}
+.testimonial-content h6{
+    font-size: 20px;
+}
+.banner-section-wrapper.rounded-corner-banners.properties-management-banner{
+    padding: 150px 0px 450px;
+}
+.banner-section-wrapper.rounded-corner-banners.appointment-management-banner{
+    margin-bottom: 100px;
+}
+.margin-bottom-60{
+    margin-bottom: 60px;
+}
+.btn.big-btn{
+    font-size: 22px;
+    font-weight: 500;
+    height: 65px;
+    padding: 15px 50px;
+    width: auto;
+}
+.banner-section-wrapper.rounded-corner-banners.properties-management-banner{
+    background: #E6F4FF;
+}
+.some-features .thumb-style{
+    height: 660px;
+}
+.some-features .thumb-style h5{
+    font-size: 21px;
+    line-height: 30px;
+}
+.blue-thumb{
+    background: #C7FEFF;
+}
+.cream-thumb{
+    background: #FEFADC;
+}
+.pink-thumb{
+    background: #FFDBD5;
+}
+.purple-thumb{
+    background: #D9E5FF;
+}
+.banner-section-wrapper p{
+    font-size: 30px;
+    list-style: 40px;
+}
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+@media only screen and (min-width:1920px){
+
+	.container-fluid{
+		width: 1720px;
+	}
 }
