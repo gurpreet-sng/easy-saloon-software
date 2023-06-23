@@ -430,6 +430,7 @@ h2.section-title{
 .feature-box-row{
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
 }
 .feature-box h3{
     font-size: 40px;
@@ -554,6 +555,33 @@ h2.section-title{
 }
 .margin-bottom-40 {
     margin-bottom: 40px;
+}
+.banner-section-wrapper.rounded-corner-banners.appointment-management-banner{
+    background: #FFDBD5;
+}
+.seeav-thumb{
+    background: #E6F4FF;
+}
+.makequick-thumb{
+    background: #C1FFE1;
+}
+.letyour-thumb{
+    background: #E8F8CE;
+}
+.getmore-thumb{
+    background: #C7FEFF;
+}
+.banner-section-wrapper.rounded-corner-banners.sellgift-banner{
+    background: #FFE280;
+}
+.margintop100{
+    margin-top: 100px;
+}
+.banner-section-wrapper.rounded-corner-banners.employee-banner{
+    background: #C7FEFF;
+}
+.banner-section-wrapper.rounded-corner-banners.billingpayment-banner{
+    background: #F5E8FF;
 }
 @media only screen and (min-width:1920px){
 
