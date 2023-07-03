@@ -565,17 +565,46 @@ h2.section-title{
 .makequick-thumb{
     background: #C1FFE1;
 }
+.appointment-thumb{
+    background: #C7FEFF;
+}
+.pp-thumb{
+    background: #FEFADC;
+}
+.pos-thumb{
+    background: #FFDBD5;
+}
+.marketing-thumb{
+    background: #FFF0E3;
+}
 .letyour-thumb{
     background: #E8F8CE;
 }
+.product-inventory-thumb{
+    background: #C5E5FF;
+}
+.reporting-thumb{
+    background: #F5E8FF;
+}
 .getmore-thumb{
     background: #C7FEFF;
+}
+.light-green-content.light-pink-content{
+    background: #F9CCCE;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.banner-section-wrapper.rounded-corner-banners.easyspa-banner{
+    background-color: #B4E7EA;
 }
 .banner-section-wrapper.rounded-corner-banners.sellgift-banner{
     background: #FFE280;
 }
 .margintop100{
     margin-top: 100px;
+}
+.margintop60{
+    margin-top: 60px;
 }
 .banner-section-wrapper.rounded-corner-banners.employee-banner{
     background: #C7FEFF;
@@ -586,9 +615,38 @@ h2.section-title{
 .banner-section-wrapper.rounded-corner-banners.report-graph-banner{
     background: #EBF2FF;
 }
+.banner-section-wrapper.rounded-corner-banners.inventory-management-banner{
+    background-color: #38E1C0;
+}
+.light-green-content.grey-bgg{
+    background: #EBF2FF;
+}
+.light-green-content.grey-bgg p{    
+    color: #000000;
+}
+.light-green-content.grey-bgg b{    
+    color: #000000;
+}
+.some-features.key-features .thumb-style{
+    height: 500px;
+}
+.light-green-content.light-pink-content h3{
+    font-size: 60px;
+    color: #282828;
+    text-align: center;
+    font-weight: 700;
+}
+.quality-wrapper h6{
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+}
 @media only screen and (min-width:1920px){
 
 	.container-fluid{
 		width: 1720px;
 	}
 }
+
