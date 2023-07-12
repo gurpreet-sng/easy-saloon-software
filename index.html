@@ -12,51 +12,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <header class="header-wrapper">
-        <div class="spaceleft-right">
-            <nav class="navbar navbar-expand-md navbar-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Why get easy</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Business</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
-                            </li>
-                        </ul>
-                        <div class="social-icons">
-                            <ul>
-                                <li><a href="https://www.facebook.com/easygymsoftware" target="_blank"><i
-                                            class="bi bi-facebook"></i></a></li>
-                                <li><a href="https://www.instagram.com/easygymsoftware/" target="_blank"><i
-                                            class="bi bi-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="button-group">
-                            <a href="tel:+91-78884 91153" class="btn phnobtn btn-primary" role="button"
-                                aria-disabled="true"><i class="bi bi-telephone-fill"></i> +91-78884 91153</a>
-                            <a href="client-management.html" class="btn btn-primary" role="button"
-                                aria-disabled="true">Free Demo</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
+<body class="home-page">
+    <div include-html="header.html" id="header-file"></div>
     <div class="banner-section-wrapper">
         <div class="spaceleft-right">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <h1>Welcome to Easy Salon Software's Unique QR Portal</h1>
@@ -82,7 +42,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="qrcode"><img src="images/qrcode.png"></div>
+                        <div class="qrcode"><img src="images/admin-page.png" class="img-fluid"></div>
                         <div class="qrcode-content">
                             <p>The ultimate solution for enhancing your salon's customer experience! <br>
                                 Our QR portal is designed to simplify the booking process and provide your<br> clients
@@ -100,66 +60,80 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2>Here are some of the key features of our Unique QR Portal</h2>
+                        <h2>Here are some of the key features<br> of our Unique QR Portal</h2>
                     </div>
                 </div>
                 <div class="row thumbnail-row">
                     <div class="col-md-6">
                         <div class="thumb-style">
                             <div class="thumbicon"><img src="images/standee.png"></div>
-                            <h5>QR standee for your reception</h5>
-                            <p>Our QR standee is the perfect addition to your salon's reception area. It allows clients
-                                to easily scan the QR code with their smartphone and access all the information they
-                                need about your salon.</p>
-                            <a href="#"><img src="images/circle-arrow.png"></a>
+                            <div class="thumcontent">
+                                <h5>QR standee for your reception</h5>
+                                <p>Our QR standee is the perfect addition to your salon's reception area. It allows
+                                    clients
+                                    to easily scan the QR code with their smartphone and access all the information they
+                                    need about your salon.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="thumb-style">
                             <div class="thumbicon"><img src="images/scan.png"></div>
-                            <h5>Scan & see latest offers, menu, prices & make instant bookings</h5>
-                            <p>With our QR portal, your clients can quickly access your salon's latest offers, menu, and
-                                prices. They can even make instant bookings right from their smartphone!</p>
-                            <a href="#"><img src="images/circle-arrow.png"></a>
+                            <div class="thumcontent">
+                                <h5>Scan & see latest offers, menu, prices & make instant bookings</h5>
+                                <p>With our QR portal, your clients can quickly access your salon's latest offers, menu,
+                                    and
+                                    prices. They can even make instant bookings right from their smartphone!</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="thumb-style">
                             <div class="thumbicon"><img src="images/show.png"></div>
-                            <h5>Show off only 5 or 4 star Google and Facebook reviews</h5>
-                            <p>Our QR portal also allows you to showcase your salon's top reviews from Google and
-                                Facebook. This helps to build trust with potential clients and encourages them to book
-                                with you.</p>
-                            <a href="#"><img src="images/circle-arrow.png"></a>
+                            <div class="thumcontent">
+                                <h5>Show off only 5 or 4 star Google and Facebook reviews</h5>
+                                <p>Our QR portal also allows you to showcase your salon's top reviews from Google and
+                                    Facebook. This helps to build trust with potential clients and encourages them to
+                                    book
+                                    with you.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="thumb-style">
                             <div class="thumbicon"><img src="images/showcase.png"></div>
-                            <h5>Showcase your latest makeup and works</h5>
-                            <p>With our QR portal, your clients can quickly access your salon's latest offers, menu, and
-                                prices. They can even make instant bookings right from their smartphone!.</p>
-                            <a href="#"><img src="images/circle-arrow.png"></a>
+                            <div class="thumcontent">
+                                <h5>Showcase your latest makeup and works</h5>
+                                <p>With our QR portal, your clients can quickly access your salon's latest offers, menu,
+                                    and
+                                    prices. They can even make instant bookings right from their smartphone!</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="thumb-style">
                             <div class="thumbicon"><img src="images/client.png"></div>
-                            <h5>Client login and self check-in option</h5>
-                            <p>Our QR portal includes a client login feature that allows your clients to easily access
-                                their account and view their appointment history. They can also use the self check-in
-                                feature to let you know when they have arrived for their appointment.</p>
-                            <a href="#"><img src="images/circle-arrow.png"></a>
+                            <div class="thumcontent">
+                                <h5>Client login and self check-in option</h5>
+                                <p>Our QR portal includes a client login feature that allows your clients to easily
+                                    access
+                                    their account and view their appointment history. They can also use the self
+                                    check-in
+                                    feature to let you know when they have arrived for their appointment.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="thumb-style">
-                            <div class="thumbicon"><img src="images/showcase.png"></div>
-                            <h5>get more conversions & Bookings</h5>
-                            <p>Our QR portal is also a great way to drive more traffic to your salon's Instagram page.
-                                By including a link in your Instagram caption or bio, you can encourage your followers
-                                to make bookings and see menu prices instantly.</p>
-                            <a href="#"><img src="images/circle-arrow.png"></a>
+                            <div class="thumbicon"><img src="images/conversion.png"></div>
+                            <div class="thumcontent">
+                                <h5>get more conversions & Bookings</h5>
+                                <p>Our QR portal is also a great way to drive more traffic to your salon's Instagram
+                                    page.
+                                    By including a link in your Instagram caption or bio, you can encourage your
+                                    followers
+                                    to make bookings and see menu prices instantly.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -184,52 +158,52 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3">
-                            <div class="getbest-thumbnail">
-                                <div class="getbest-icon"><img src="images/scessor.png"></div>
-                                <h6>Beauty Salons</h6>
+                            <div class="recommended-box">
+                                <div class="recommended-image"><img src="images/beauty.png" class="img-fluid"></div>
+                                <h6>Beauty Salon</h6>
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="getbest-thumbnail">
-                                <div class="getbest-icon"><img src="images/spa.png"></div>
+                            <div class="recommended-box">
+                                <div class="recommended-image"><img src="images/spaimg.png" class="img-fluid"></div>
                                 <h6>Spa</h6>
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="getbest-thumbnail">
-                                <div class="getbest-icon"><img src="images/tatto.png"></div>
-                                <h6>Tattoo</h6>
+                            <div class="recommended-box">
+                                <div class="recommended-image"><img src="images/tattoimg.png" class="img-fluid"></div>
+                                <h6>Tatto Studio</h6>
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="getbest-thumbnail">
-                                <div class="getbest-icon"><img src="images/car.png"></div>
+                            <div class="recommended-box">
+                                <div class="recommended-image"><img src="images/carspa.png" class="img-fluid"></div>
                                 <h6>Car Spa</h6>
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="getbest-thumbnail">
-                                <div class="getbest-icon"><img src="images/car.png"></div>
+                            <div class="recommended-box">
+                                <div class="recommended-image"><img src="images/nailart.png" class="img-fluid"></div>
                                 <h6>Nail Art</h6>
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="getbest-thumbnail">
-                                <div class="getbest-icon"><img src="images/makeup.png"></div>
-                                <h6>Makeup Studio &<br> Academy</h6>
+                            <div class="recommended-box">
+                                <div class="recommended-image"><img src="images/makeupimg.png" class="img-fluid"></div>
+                                <h6>Makeup Studio & Academy</h6>
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="getbest-thumbnail">
-                                <div class="getbest-icon"><img src="images/pet.png"></div>
-                                <h6>Pet Grooming<br> Studio</h6>
+                            <div class="recommended-box">
+                                <div class="recommended-image"><img src="images/petgrooming.png" class="img-fluid">
+                                </div>
+                                <h6>Pet Grooming</h6>
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="getbest-thumbnail">
-                                <div class="getbest-icon"><img src="images/clinic.png"></div>
-                                <h6>Aesthetic<br>
-                                    Clinic</h6>
+                            <div class="recommended-box">
+                                <div class="recommended-image"><img src="images/clinicaes.png" class="img-fluid"></div>
+                                <h6>Aesthetic Clinic</h6>
                             </div>
                         </div>
                     </div>
@@ -237,6 +211,99 @@
             </div>
         </div>
         <div class="layerbg-bottom"></div>
+    </div>
+
+    <div class="unique-qr-portal retain-more-clients-section">
+        <div class="spaceleft-right">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Retain more clients</h2>
+                    </div>
+                </div>
+                <div class="row thumbnail-row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="thumb-style thumb-stack">
+                            <div class="thumbicon"><img src="images/rewardimg.png"></div>
+                            <div class="thumcontent">
+                                <h5>Reward Points</h5>
+                                <p>Everytime your client visit they earn reward points which they can avail to get cash
+                                    discount on next visit, this promote your salon business.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="thumb-style thumb-stack">
+                            <div class="thumbicon"><img src="images/e-walletimg.png"></div>
+                            <div class="thumcontent">
+                                <h5>e-Wallet & Packages</h5>
+                                <p>Introduce e-wallet for hassle free experience of payments with your clients & sell
+                                    them customized packages or service bundles.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="thumb-style thumb-stack">
+                            <div class="thumbicon"><img src="images/reminderimg.png"></div>
+                            <div class="thumcontent">
+                                <h5>Automatic Service Reminders</h5>
+                                <p>Every client needs to come back to your salon after couple of weeks so easy salon
+                                    increases potential for them to come back to you with automated service reminders.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="automate-management-section">
+        <div class="spaceleft-right">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="section-title text-center">Automate management of your<br> salon & spa</h2>
+                    </div>
+                </div>
+                <div class="row margin-top-100">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="recommended-box billingbg">
+                            <div class="automate-box">
+                                <div class="automate-icon"><img src="images/bill.png" class="img-fluid"></div>
+                                <h6>Billing</h6>
+                                <p>Easy Salon Software enables you to do GST &amp; Non-GST billing for services, beauty
+                                    products &amp; packages. Easy Salon auto sends an invoice on clients phone via SMS
+                                    &amp;
+                                    email.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="recommended-box billingbg">
+                            <div class="automate-box">
+                                <div class="automate-icon"><img src="images/bill.png" class="img-fluid"></div>
+                                <h6>Daily Reports</h6>
+                                <p>Whether you have one salon or more; Easy Salon Software auto sends you reports on
+                                    emails for today's billing, walk-ins, and expenses. Easy Salon also gives you the
+                                    option to export data in MS Excel format.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="recommended-box billingbg">
+                            <div class="automate-box">
+                                <div class="automate-icon"><img src="images/bill.png" class="img-fluid"></div>
+                                <h6>Unlimited Access</h6>
+                                <p>Easy Salon comes with no limits! Yes, add as many as employees, software users,
+                                    clients, bills or products/services to your software. We do not have any limit on
+                                    the number of entries you make on our software.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="trusted-by">
@@ -312,10 +379,10 @@
                                     mobile app and<br> more...</p>
 
                                 <div class="button-group">
-                                    <a href="#" class="btn phnobtn btn-primary" role="button"
-                                        aria-disabled="true">Get Easy Salon Software</a>
-                                    <a href="#" class="btn demobtn btn-primary" role="button"
-                                        aria-disabled="true">Book A Demo</a>
+                                    <a href="#" class="btn phnobtn btn-primary" role="button" aria-disabled="true">Get
+                                        Easy Salon Software</a>
+                                    <a href="#" class="btn demobtn btn-primary" role="button" aria-disabled="true">Book
+                                        A Demo</a>
                                 </div>
                             </div>
                         </div>
@@ -365,21 +432,25 @@
                         </div>
                         <div class="col-md-4">
                             <div class="footer-subscribe">
-                                <h5>Subscribe to get information, latest news and other interesting offers about Easy Software</h5>
+                                <h5>Subscribe to get information, latest news and other interesting offers about Easy
+                                    Software</h5>
                                 <form>
                                     <div class="mb-3">
-                                      <input type="email" placeholder="Your email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        <input type="email" placeholder="Your email" class="form-control"
+                                            id="exampleInputEmail1" aria-describedby="emailHelp">
                                     </div>
                                     <button type="submit" class="btn btn-primary">Submit</button>
-                                  </form>
+                                </form>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="social-icons">
                             <ul>
-                                <li><a href="https://www.facebook.com/easygymsoftware" target="_blank"><i class="bi bi-facebook"></i></a></li>
-                                <li><a href="https://www.instagram.com/easygymsoftware/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/easygymsoftware" target="_blank"><i
+                                            class="bi bi-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/easygymsoftware/" target="_blank"><i
+                                            class="bi bi-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -429,6 +500,8 @@
 
         </script>
     </footer>
+
+    <script src="js/include-html.min.js"></script>
 </body>
 
 </html>
