@@ -112,10 +112,38 @@ header .btn:hover{
 .phnobtn{
     width: 220px;
 }
+.color-white{
+    color: #ffffff;
+}
+.margin-top-70{
+    margin-top: 70px;
+}
+.background-trasparent{
+    background-color: transparent !important;
+}
+.margin-top-150{
+    margin-top: 150px;
+}
 .banner-section-wrapper{
     background-image: url("../images/bannerbg.png");
     padding: 250px 0px 250px;
     background-repeat: no-repeat;
+    background-position: center top !important;
+}
+.yellow-bgg .banner-section-wrapper{
+    background-image: url(../images/bannerbg-yellow.png) !important;
+    margin: 0px !important;
+    border-radius: 0px !important;
+}
+.property-management-page .banner-section-wrapper{
+    background-image: url(../images/property-page-bgg.png) !important;
+    margin: 0px !important;
+    border-radius: 0px !important;
+}
+.appointment-management-page .banner-section-wrapper{
+    background-image: url(../images/ap-management.png) !important;
+    margin: 0px !important;
+    border-radius: 0px !important;
 }
 .banner-section-wrapper h1{
     font-weight: 700;
@@ -287,6 +315,7 @@ header .btn:hover{
 }
 .automate-management-section{
     padding: 100px 0px;
+    background: linear-gradient(180deg, rgba(229, 238, 255, 0.00) 10.94%, #E5EEFF 100%);
 }
 h2.section-title{
     font-family: 'NeurialGroteskLight';
@@ -360,6 +389,7 @@ h2.section-title{
     position: relative;
     padding: 40px 20px;
     box-shadow: 0px 0px 10px 0px #dddddd;
+    height: 550px;
 }
 .automate-icon{
     margin-bottom: 10px;
@@ -383,7 +413,7 @@ h2.section-title{
     margin-bottom: 100px;
 }
 .trusted-by{
-    padding: 100px 0px;
+    padding: 150px 0px 230px;
 }
 .logos img{
     width: 100%;
@@ -447,8 +477,9 @@ h2.section-title{
     margin-top: 30px;
     text-align: center;
 }
+
 .footer-green{
-    background-color: #006A43;
+    background-color: #0655FF;
 }
 .easylogo img{
     width: auto;
@@ -458,7 +489,8 @@ h2.section-title{
     text-align: center;
 }
 .video-section-wrapper{
-    padding-bottom: 250px;
+    padding-top: 100px;
+    padding-bottom: 30px;
 }
 .readyto h2{
     font-size: 80px;
@@ -555,7 +587,79 @@ h2.section-title{
     padding: 150px 0px 150px;
 }
 .banner-section-wrapper.rounded-corner-banners.marketing-banner{
-    padding: 150px 0px 450px;
+    padding: 260px 0px 450px;
+    background: transparent;
+}
+.banner-section-wrapper.marketing-banner h1{
+    margin-bottom: 60px;
+}
+.blackmenu .navbar-expand-md .navbar-nav .nav-link{
+    color: #000000;
+}
+.blackmenu .social-icons ul li a{
+    color: #000000;
+}
+.blackmenu .navbar-brand img{
+    opacity: 0;
+}
+.blackmenu .navbar-brand{
+    background-image: url("../images/logoblack.png");
+    background-repeat: no-repeat;
+}
+.video-section-wrapper.video-yellow-bg{
+    padding: 0px;
+}
+.yellow-bg-color{
+    background-color: #FFE96E;
+    padding: 60px 0px;
+}
+.light-yellow-color{
+    background-color: #FFFBE7;
+}
+.light-blue-color{
+    background-color: #EBEEFF;
+}
+.video-section-wrapper.video-marketing-page{
+    padding-top: 150px;
+    margin-top: -50px;
+    padding-bottom: 120px;
+}
+.yellow-layer{
+    text-align: center;
+}
+.yellow-layer p{
+    font-size: 25px;
+    line-height: 45px;
+    margin-bottom: 50px;
+}
+.yellow-layer b{
+    font-weight: 700;
+    font-size: 25px;
+}
+.padding-top-bottom-60{
+    padding: 60px 0px;
+}
+.blue-bg-color{
+    background-color: #4666FF;
+}
+.layer-text{
+    text-align: center;
+}
+.layer-text p{
+    font-size: 25px;
+    line-height: 45px;
+    margin-bottom: 50px;
+}
+.layer-text b{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.videobgg-top img{
+    width: 100%;
+}
+.videobgg-bottom img{
+    width: 100%;
 }
 .qrcode-section-wrapper.uniqueqrportal{
     margin-top: -650px;
@@ -681,17 +785,41 @@ h2.section-title{
     font-size: 21px;
     line-height: 30px;
 }
-.blue-thumb{
-    background: #C7FEFF;
+.management-thumb-style .thumb-style p{
+    font-size: 20px;
+}
+.orange-thumb{
+    background: #FF725E;
+}
+.purple-thumb{
+    background: #5E4CFF;
+}
+.red-thumb{
+    background: #DE3163;
+}
+.purpletwo-thumb{
+    background: #8338EC;
+}
+.green-thumb{
+    background: #16DB93;
+}
+.bluetwo-thumb{
+    background: #3A86FF;
+}
+.redtwo-thumb{
+    background: #F51E52;
+}
+.lightblue-thumb{
+    background: #008DCF;
+}
+.purple-thumb{
+    background: #5E4CFF;
 }
 .cream-thumb{
     background: #FEFADC;
 }
 .pink-thumb{
     background: #FFDBD5;
-}
-.purple-thumb{
-    background: #D9E5FF;
 }
 .banner-section-wrapper p{
     font-size: 30px;
@@ -701,7 +829,7 @@ h2.section-title{
     margin-bottom: 40px;
 }
 .banner-section-wrapper.rounded-corner-banners.appointment-management-banner{
-    background: #FFDBD5;
+    background: transparent;
 }
 .seeav-thumb{
     background: #E6F4FF;
