@@ -128,7 +128,8 @@ header .btn:hover{
     background-image: url("../images/bannerbg.png");
     padding: 250px 0px 250px;
     background-repeat: no-repeat;
-    background-position: center top !important;
+    background-position: center bottom !important;
+    background-size: cover;
 }
 .yellow-bgg .banner-section-wrapper{
     background-image: url(../images/bannerbg-yellow.png) !important;
@@ -480,6 +481,7 @@ h2.section-title{
 
 .footer-green{
     background-color: #0655FF;
+    padding: 0px 20px;
 }
 .easylogo img{
     width: auto;
@@ -589,6 +591,7 @@ h2.section-title{
 .banner-section-wrapper.rounded-corner-banners.marketing-banner{
     padding: 260px 0px 450px;
     background: transparent;
+    background-repeat: no-repeat;
 }
 .banner-section-wrapper.marketing-banner h1{
     margin-bottom: 60px;
@@ -1028,10 +1031,439 @@ header .navbar-nav.me-auto{
     font-size: 16px;
     color: #000;
 }
+.main-footer .social-icons ul li a{
+    color: #000000;
+}
 @media only screen and (min-width:1920px){
 
 	.container-fluid{
 		width: 1720px;
 	}
 }
+@media only screen and (max-width:1440px){
 
+    .banner-section-wrapper h1{
+        font-size: 60px;
+    }
+    .button-group.banner-button .btn{
+        margin-bottom: 20px;
+    }
+    .qrcode-content p br{
+        display: none;
+    }
+    .thumb-style{
+        height: 430px;
+    }
+    .automate-management-section .recommended-box .automate-box{
+        height: 650px;
+    }
+    .readyto h2 br{
+        display: none;
+    }
+    .readyto h2{
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .readyto p br{
+        display: none;
+    }
+    .footer-green .btn.phnobtn{
+        margin-bottom: 20px;
+    }
+    .banner-section-wrapper.marketing-banner h1{
+        margin-bottom: 120px;
+    }
+    .qrcode-section-wrapper.uniqueqrportal {
+        margin-top: -540px;
+    }
+    h2.section-title {
+        font-size: 55px;
+    }
+    .videobgg-top{
+        margin-bottom: -5px;
+    }
+    .videobgg-bottom{
+        margin-top: -5px;
+    }
+    .some-features .thumb-style {
+        height: 900px;
+    }
+}
+@media only screen and (max-width:1199px){
+
+    .some-features .thumb-style {
+        height: 900px;
+    }
+    .unique-qr-portal h2 br{
+        display: none;
+    }
+    .thumb-style{
+        display: block;
+    }
+    .thumb-style{
+        height: auto;
+    }
+    .btn{
+        padding: 12px 10px;
+        margin-bottom: 15px;
+    }
+    .recommended-box h6{
+        padding: 20px;
+        font-size: 20px;
+    }
+    .getbest-section-title{
+        padding: 100px 0px 0px;
+    }
+    .unique-qr-portal.retain-more-clients-section{
+        padding: 160px 0px 100px;
+    }
+    h2.section-title br{
+        display: none;
+    }
+    .automate-management-section .recommended-box{
+        padding: 0px 10px;
+    }
+    .automate-management-section .recommended-box .automate-box{
+        height: 700px;
+    }
+    .trusted-by {
+        padding: 100px 0px 200px;
+    }
+    .readyto h2 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .readyto p{
+        font-size: 25px;
+        line-height: 45px;
+    }
+    .easylogo img{
+        width: auto;
+        margin-top: -85px;
+    }
+    h2.section-title{
+        font-size: 60px;
+    }
+    .qrcode-section-wrapper.uniqueqrportal{
+        margin-top: -430px;
+    }
+    .banner-section-wrapper.marketing-banner h1 {
+        margin-bottom: 0px;
+    }
+
+}
+@media only screen and (max-width:991px){
+
+    .banner-section-wrapper.rounded-corner-banners.properties-management-banner{
+        padding: 260px 0px 310px
+    }
+    .banner-section-wrapper.properties-management-banner .margin-top-70{
+        margin-top: 0px;
+    }
+    .some-features .thumb-style {
+        height: auto;
+    }
+    .spaceleft-right.blue-bg-color{
+        padding: 60px 20px;
+    }
+    .layer-text{
+        margin-top: 60px;
+    }
+    .col-reverse{
+        flex-direction: column-reverse;
+    }
+    .feature-section-wrapper{
+        text-align: center;
+    }
+    .feature-image{
+        margin-bottom: 30px;
+    }
+    .feature-box-row{
+        margin-bottom: 60px;
+    }
+    .videobgg-top{
+        margin-bottom: -5px;
+    }
+    .videobgg-bottom{
+        margin-top: -5px;
+    }
+    .spaceleft-right.yellow-bg-color{
+        padding: 60px 20px;
+    }
+    .spaceleft-right{
+        padding: 0px 20px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding: 15px 20px;
+    }
+    .btn{
+        width: 150px;
+    }
+    .phnobtn{
+        width: 200px;
+    }
+    .button-group.banner-button{
+        margin-bottom: 60px;
+    }
+    .qrcode-content p{
+        font-size: 30px;
+        line-height: 54px;
+    }
+    .automate-management-section .recommended-box .automate-box {
+        height: auto;
+    }
+    .video-section-wrapper {
+        padding-top: 60px;
+    }
+    .video-crausel{
+        margin-top: 60px;
+    }
+    .footer-links{
+        margin-bottom: 40px;
+    }
+    .layerbg-bottom{
+        margin-top: -5px;
+    }
+    .getbest-section-title{
+        margin-bottom: -5px;
+    }
+    .banner-section-wrapper.rounded-corner-banners.marketing-banner{
+        padding: 260px 0px 310px;
+    }
+    .qrcode-section-wrapper.uniqueqrportal {
+        margin-top: -360px;
+    }
+    .feature-section-wrapper.some-features .btn.big-btn{
+        margin-bottom: 60px;
+    }
+    .video-section-wrapper.video-marketing-page {
+        padding-top: 100px;
+        margin-top: -35px;
+    }
+}
+@media only screen and (max-width:767px){
+
+   
+    .video-section-wrapper.video-marketing-page{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .video-section-wrapper.video-marketing-page{
+        margin-top: -30px;
+    }
+    .navbar-toggler{
+        border: 1px solid #ffffff;
+    }
+    .blackmenu .navbar-toggler{
+        border: 1px solid #000000;
+        background: #000000;
+    }
+    .navbar-collapse{
+        background-color: #ffffff;
+        padding: 20px 10px;
+    }
+    .btn.phnobtn{
+        background: #000000;
+        color: #ffffff;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        color: #000;
+    }
+    .social-icons ul li a{
+        color: #000000;
+    }
+    .social-icons ul {
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    .unique-qr-portal h2{
+        font-size: 50px;
+    }
+    .recommended-image img{
+        width: 100%;
+    }
+    .getbest-section-title h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    h2.section-title {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .readyto {
+        padding: 30px 10px 100px;
+    }
+    .main-footer .social-icons ul {
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
+    .button-group.banner-button .btn {
+        font-size: 18px;
+        padding: 10px;
+        margin-bottom: 20px !important;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .qrcode-section-wrapper {
+        padding-bottom: 100px;
+    }
+    .qrcode-section-wrapper.uniqueqrportal {
+        margin-top: -270px;
+    }
+}
+@media only screen and (max-width:575px){
+
+    .thumbicon img{
+        width: 100%;
+    }
+    .qrcode-section-wrapper.uniqueqrportal{
+        padding-bottom: 70px;
+    }
+    .qrcode-section-wrapper.uniqueqrportal.marketing-banner-image .qrcode-content p {
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    .banner-section-wrapper.rounded-corner-banners.marketing-banner {
+        padding: 170px 0px 150px;
+    }
+    .qrcode-section-wrapper.uniqueqrportal {
+        margin-top: -150px;
+    }
+    .banner-section-wrapper.rounded-corner-banners.properties-management-banner {
+        padding: 170px 0px 150px;
+    }
+    .layer-text p {
+        font-size: 20px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .layer-text b {
+        font-size: 20px;
+    }
+    .feature-box h3 {
+        font-size: 30px;
+    }
+    .footer-subscribe input{
+        height: 50px;
+    }
+    .footer-subscribe .btn{
+        height: 50px;
+    }
+    .videobgg-bottom {
+        margin-top: -7px;
+    }
+    .footer-green {
+        padding: 0px 0px;
+    }
+    .feature-box p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .video-section-wrapper.video-marketing-page{
+        margin-top: -11px;
+    }
+    .getbest-section-title h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .getbest-section-title{
+        background-image: none;
+        margin-top: 0px;
+        background-color: #0655FF;
+    }
+    .unique-qr-portal{
+        padding: 90px 0px 80px;
+    }
+    .unique-qr-portal h2 {
+        font-size: 40px;
+    }
+    .banner-section-wrapper h1{
+        font-size: 40px;
+    }
+    .spaceleft-right {
+        padding: 0px 10px;
+    }
+    .btn.grey-button{
+        width: 280px;
+        font-size: 20px;
+    }
+    .footer-green .btn{
+        font-size: 20px;
+    }
+    .footer-green .btn.phnobtn{
+        width: 280px;
+        margin-right: 0px;
+        font-size: 18px;
+    }
+    .video-section-wrapper h4{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    h2.section-title {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .navbar-brand img{
+        width: 100%;
+    }
+    .navbar-brand{
+        width: 170px;
+        background-size: 100%;
+    }
+    .banner-section-wrapper{
+        padding: 150px 0px 250px;
+    }
+    .button-group.banner-button {
+        margin-top: 40px;
+    }
+    .btn.grey-button{
+        width: 260px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .btn{
+        padding: 8px 10px;
+        font-size: 16px;
+    }
+    .qrcode-content p {
+        font-size: 23px;
+        line-height: 42px;
+    }
+    .getbest-section-title {
+        padding: 80px 0px 0px;
+    }
+    .unique-qr-portal.retain-more-clients-section {
+        padding: 160px 0px 80px;
+    }
+    .automate-management-section{
+        padding: 80px 0px;
+    }
+    .margin-top-100 {
+        margin-top: 60px;
+    }
+    .video-section-wrapper {
+        padding-top: 0px;
+    }
+    .trusted-by{
+        padding: 80px 0px 130px;
+    }
+    .readyto h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .readyto p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .readyto {
+        padding: 30px 10px 80px;
+    }
+    .footer-subscribe h5{
+        font-size: 24px;
+        margin-bottom: 30px;
+        line-height: 38px;
+    }
+}
