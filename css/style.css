@@ -1371,6 +1371,9 @@ header .navbar-nav.me-auto{
 }
 @media only screen and (max-width:767px){
 
+    .navbar .button-group{
+        margin: 0px 20px;
+    }
     .btn.big-btn{
         font-size: 20px;
         height: 60px;
