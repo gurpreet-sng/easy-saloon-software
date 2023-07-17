@@ -46,6 +46,9 @@ body{
 .navbar-expand-md .navbar-nav .nav-link{
     color: #FFFFFF;
 }
+.orange-bg-color{
+    background-color: #FF725E;
+}
 .navbar-nav.me-auto{
     margin-left: auto!important;
     margin-right: 0px !important;
@@ -60,6 +63,9 @@ body{
     font-weight: 500;
     padding: 15px 30px;
     font-family: 'NeurialGroteskMedium';
+}
+.management-thumb-style .thumbicon{
+    margin-right: 0px;
 }
 .spaceleft-right{
     padding: 0px 60px;
@@ -109,6 +115,9 @@ header .btn:hover{
     border: 2px solid;
     color: #ffffff !important;
 }
+.navbar-collapse{
+    z-index: 10;
+}
 .phnobtn{
     width: 220px;
 }
@@ -129,7 +138,7 @@ header .btn:hover{
     padding: 250px 0px 250px;
     background-repeat: no-repeat;
     background-position: center bottom !important;
-    background-size: cover;
+    background-size: cover !important;
 }
 .yellow-bgg .banner-section-wrapper{
     background-image: url(../images/bannerbg-yellow.png) !important;
@@ -145,6 +154,51 @@ header .btn:hover{
     background-image: url(../images/ap-management.png) !important;
     margin: 0px !important;
     border-radius: 0px !important;
+}
+.banner-section-wrapper.rounded-corner-banners.sellgift-banner{
+    background-image: url(../images/gift-banner.png) !important;
+    border-radius: 0px !important;
+    margin: 0px !important;
+    background-color: transparent !important;
+}
+.banner-section-wrapper.rounded-corner-banners.employee-banner{
+    background-image: url(../images/employee-banner.png) !important;
+    border-radius: 0px !important;
+    margin: 0px !important;
+    background-color: transparent !important;
+}
+.banner-section-wrapper.rounded-corner-banners.billingpayment-banner{
+    background-image: url(../images/billingpayment-banner.png) !important;
+    border-radius: 0px !important;
+    margin: 0px !important;
+    background-color: transparent !important;
+}
+.banner-section-wrapper.rounded-corner-banners.report-graph-banner{
+    background-image: url(../images/report-graph-banner.png) !important;
+    border-radius: 0px !important;
+    margin: 0px !important;
+    background-color: transparent !important;
+}
+.banner-section-wrapper.rounded-corner-banners.inventory-management-banner{
+    background-image: url(../images/inventory-management-bannerbg.png) !important;
+    border-radius: 0px !important;
+    margin: 0px !important;
+    background-color: transparent !important;
+}
+.light-greentwo-color{
+    background: linear-gradient(180deg, rgba(229, 238, 255, 0.00) 10.94%, rgba(39, 222, 191, 0.15) 100%);
+}
+.skyblue-bg-color{
+    background-color: #50c4fe;
+}
+.greentwo-bg-color{
+    background-color: #27DEBF;
+}
+.light-blue-color{
+    background-color: #E5EEFF;
+}
+.blue-bg-color{
+   background-color: #407bff;
 }
 .banner-section-wrapper h1{
     font-weight: 700;
@@ -578,8 +632,11 @@ h2.section-title{
 .header-wrapper.inner-page-header{
     position: static;
 }
-.qrcode img{
-    
+.green-bg-color{
+  background-color: #00FFBF;
+}
+.light-green-color{
+    background: linear-gradient(180deg, rgba(229, 238, 255, 0.00) 10.94%, rgba(39, 222, 191, 0.15) 100%);
 }
 .banner-section-wrapper.rounded-corner-banners{
     border-radius: 40px;
@@ -624,7 +681,7 @@ h2.section-title{
 }
 .video-section-wrapper.video-marketing-page{
     padding-top: 150px;
-    margin-top: -50px;
+    margin-top: -55px;
     padding-bottom: 120px;
 }
 .yellow-layer{
@@ -642,9 +699,10 @@ h2.section-title{
 .padding-top-bottom-60{
     padding: 60px 0px;
 }
-.blue-bg-color{
-    background-color: #4666FF;
+.spaceleft-right.padding-top-bottom-60{
+    padding: 60px 0px;
 }
+
 .layer-text{
     text-align: center;
 }
@@ -785,7 +843,6 @@ h2.section-title{
     height: 660px;
 }
 .some-features .thumb-style h5{
-    font-size: 21px;
     line-height: 30px;
 }
 .management-thumb-style .thumb-style p{
@@ -826,7 +883,7 @@ h2.section-title{
 }
 .banner-section-wrapper p{
     font-size: 30px;
-    list-style: 40px;
+    line-height: 40px;
 }
 .margin-bottom-40 {
     margin-bottom: 40px;
@@ -1034,6 +1091,12 @@ header .navbar-nav.me-auto{
 .main-footer .social-icons ul li a{
     color: #000000;
 }
+.magenta-bg-color{
+    background-color: #F51E52;
+}
+.light-magenta-color{
+    background: linear-gradient(180deg, rgba(229, 238, 255, 0.00) 10.94%, rgba(255, 114, 94, 0.20) 100%);
+}
 @media only screen and (min-width:1920px){
 
 	.container-fluid{
@@ -1042,6 +1105,9 @@ header .navbar-nav.me-auto{
 }
 @media only screen and (max-width:1440px){
 
+    .banner-section-wrapper p{
+        font-size: 26px;
+    }
     .banner-section-wrapper h1{
         font-size: 60px;
     }
@@ -1086,13 +1152,45 @@ header .navbar-nav.me-auto{
         margin-top: -5px;
     }
     .some-features .thumb-style {
-        height: 900px;
+        height: 760px;
+    }
+    .banner-section-wrapper .margin-top-150{
+        margin-top: 80px;
+    }
+    .banner-section-wrapper.sellgift-banner .margin-top-150{
+        margin-top: 80px;
     }
 }
 @media only screen and (max-width:1199px){
 
-    .some-features .thumb-style {
-        height: 900px;
+    .section-title br{
+        display: none;
+    }
+    .navbar-expand-md .navbar-nav li:hover .submenu-wrapper{
+        flex-direction: column;
+    }
+    .tabimage{
+        width: 300px;
+        margin: auto;
+    }
+    .tabimage img{
+        width: 100%;
+    }
+    .navbar-expand-md .navbar-nav li .submenu-wrapper{
+        width: 880px;
+    }
+    .btn{
+        width: 150px;
+    }
+    .phnobtn{
+        width: 200px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        font-size: 20px;
+        padding: 15px 25px;
+    }
+    .some-features .thumb-style{
+        height: 860px;
     }
     .unique-qr-portal h2 br{
         display: none;
@@ -1150,7 +1248,9 @@ header .navbar-nav.me-auto{
     .banner-section-wrapper.marketing-banner h1 {
         margin-bottom: 0px;
     }
-
+    .spaceleft-right{
+        padding: 0px 20px;
+    }
 }
 @media only screen and (max-width:991px){
 
@@ -1236,14 +1336,54 @@ header .navbar-nav.me-auto{
     .feature-section-wrapper.some-features .btn.big-btn{
         margin-bottom: 60px;
     }
-    .video-section-wrapper.video-marketing-page {
+    .video-section-wrapper.video-marketing-page{
         padding-top: 100px;
         margin-top: -35px;
+    }
+    .tab-space-80px{
+        padding-bottom: 150px !important;
+    }
+    .readyto{
+        padding: 0px 0px 100px;
+    }
+    .trusted-by{
+        padding: 100px 0px 150px;
+    }
+    .navbar-expand-md .navbar-nav li .submenu-wrapper{
+        width: 670px;
+        padding: 40px 20px;
+    }
+    .menulink-text{
+        padding-right: 20px;
+    }
+    .banner-section-wrapper p{
+        font-size: 24px;
+    }
+    .banner-section-wrapper.rounded-corner-banners{
+        padding: 150px 0px 100px;
+    }
+    .feature-section-wrapper.some-features.margin-top-150{
+        margin-top: 100px
+    }
+    .banner-image{
+        margin-top: 40px;
     }
 }
 @media only screen and (max-width:767px){
 
-   
+    .btn.big-btn{
+        font-size: 20px;
+        height: 60px;
+    }
+    .trusted-by h2.section-title{
+        margin-bottom: 60px;
+    }
+    .tab-space-80px{
+        padding-bottom: 80px !important;
+    }
+    .thumb-style{
+        padding: 30px 20px;
+    }
     .video-section-wrapper.video-marketing-page{
         padding-top: 80px;
         padding-bottom: 80px;
@@ -1311,9 +1451,44 @@ header .navbar-nav.me-auto{
     .qrcode-section-wrapper.uniqueqrportal {
         margin-top: -270px;
     }
+    .navbar-expand-md .navbar-nav li .submenu-wrapper{
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 100%;
+    }
+    .navbar-expand-md .navbar-nav li ul li{
+        width: 100%;
+    }
+    .tabimage{
+        width: 240px;
+    }
+    .navbar-expand-md .navbar-nav li:hover .submenu-wrapper{
+        background-color: #f2f2f2;
+    }
+    .feature-box h3{
+        font-size: 35px;
+    }
 }
 @media only screen and (max-width:575px){
 
+    .banner-section-wrapper.sellgift-banner .margin-top-150{
+        margin-top: 30px;
+    }
+    .feature-section-wrapper .margin-bottom-100{
+        margin-bottom: 60px;
+    }
+    .feature-section-wrapper.margintop100{
+        margin-top: 60px;
+    }
+    .management-thumb-style .thumbicon{
+        width: 200px;
+        margin: auto auto 20px;
+    }
+    .qrcode-section-wrapper {
+        margin-top: -50px;
+    }
     .thumbicon img{
         width: 100%;
     }
@@ -1400,9 +1575,9 @@ header .navbar-nav.me-auto{
         font-size: 40px;
         line-height: 50px;
     }
-    h2.section-title {
-        font-size: 40px;
-        line-height: 60px;
+    h2.section-title{
+        font-size: 35px;
+        line-height: 50px;
     }
     .navbar-brand img{
         width: 100%;
@@ -1412,9 +1587,9 @@ header .navbar-nav.me-auto{
         background-size: 100%;
     }
     .banner-section-wrapper{
-        padding: 150px 0px 250px;
+        padding: 150px 0px 100px;
     }
-    .button-group.banner-button {
+    .button-group.banner-button{
         margin-top: 40px;
     }
     .btn.grey-button{
@@ -1465,5 +1640,37 @@ header .navbar-nav.me-auto{
         font-size: 24px;
         margin-bottom: 30px;
         line-height: 38px;
+    }
+    .banner-section-wrapper .margin-top-150{
+        margin-top: 30px;
+    }
+    .banner-section-wrapper p{
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .banner-section-wrapper .margin-bottom-40{
+        margin-bottom: 30px;
+    }
+    .banner-section-wrapper.rounded-corner-banners{
+        padding: 150px 0px 60px;
+    }
+    .banner-image{
+        margin-top: 20px;
+    }
+    .feature-section-wrapper.some-features.margin-top-150{
+        margin-top: 60px;
+    }
+    .btn.big-btn{
+        font-size: 18px;
+        height: 55px;
+    }
+    .navbar-collapse{
+        padding: 20px 0px;
+    }
+    .nav-item h6{
+        font-size: 20px;
+    }
+    .tabimage {
+        width: 200px;
     }
 }
