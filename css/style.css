@@ -92,6 +92,7 @@ body{
     color: #000000;
     font-weight: 700;
     margin-right: 10px;
+    border: 2px solid #ffffff;
 }
 .btn {
     background: #FFC608;
@@ -184,6 +185,48 @@ header .btn:hover{
     border-radius: 0px !important;
     margin: 0px !important;
     background-color: transparent !important;
+}
+.banner-section-wrapper.rounded-corner-banners.tattoo-banner{
+    background-image: url(../images/greenbanner-bg.png) !important;
+    border-radius: 0px !important;
+    margin: 0px !important;
+    background-color: transparent !important;
+}
+.banner-section-wrapper.rounded-corner-banners.carspa-banner{
+    background-image: url(../images/carspa-bg.png) !important;
+    border-radius: 0px !important;
+    margin: 0px !important;
+    background-color: transparent !important;
+}
+.banner-section-wrapper.rounded-corner-banners.petbg-banner{
+    background-image: url(../images/petbg.png) !important;
+    border-radius: 0px !important;
+    margin: 0px !important;
+    background-color: transparent !important;
+}
+.banner-section-wrapper.rounded-corner-banners.darkblue-bg{
+    background-image: url(../images/darkblue-bg.png) !important;
+    border-radius: 0px !important;
+    margin: 0px !important;
+    background-color: transparent !important;
+}
+.darkblue-bg-color{
+    background-color: #00B9E8;
+}
+.darkblue-gradiant{
+    background: linear-gradient(180deg, rgba(229, 238, 255, 0.00) 0%, rgba(0, 185, 232, 0.15) 100%);
+}
+.darkpurple-bg-color{
+    background-color: #5C4AF9 !important;
+}
+.purple-gradiant-color{
+    background: linear-gradient(180deg, rgba(229, 238, 255, 0.00) 10.94%, rgba(90, 131, 255, 0.15) 100%);
+}
+.green-gradiant-color{
+    background: linear-gradient(180deg, rgba(229, 238, 255, 0.00) 10.94%, rgba(48, 200, 34, 0.15) 100%);
+}
+.darkgreen-bg-color{
+    background-color: #30c922;
 }
 .light-greentwo-color{
     background: linear-gradient(180deg, rgba(229, 238, 255, 0.00) 10.94%, rgba(39, 222, 191, 0.15) 100%);
@@ -316,6 +359,8 @@ header .btn:hover{
     border: 1px solid #dddddd;
     background-color: #ffffff;
     margin-bottom: 30px;
+    display: block;
+    text-decoration: none;
 }
 .recommended-box h6 {
     background-color: #ffffff;
@@ -653,6 +698,15 @@ h2.section-title{
 .banner-section-wrapper.marketing-banner h1{
     margin-bottom: 60px;
 }
+.lightgreen-color{
+    background-color: #00FF7F;
+}
+.lightgreen-gradiant-color{
+    background: linear-gradient(180deg, rgba(229, 238, 255, 0.00) 0%, rgba(0, 255, 127, 0.20) 100%);
+}
+.blackcolor{
+    color: #000000 !important;
+}
 .blackmenu .navbar-expand-md .navbar-nav .nav-link{
     color: #000000;
 }
@@ -883,7 +937,7 @@ h2.section-title{
 }
 .banner-section-wrapper p{
     font-size: 30px;
-    line-height: 40px;
+    line-height: 50px;
 }
 .margin-bottom-40 {
     margin-bottom: 40px;
@@ -1097,6 +1151,24 @@ header .navbar-nav.me-auto{
 .light-magenta-color{
     background: linear-gradient(180deg, rgba(229, 238, 255, 0.00) 10.94%, rgba(255, 114, 94, 0.20) 100%);
 }
+.automate-management-section{
+    background: ;
+}
+.nobg{
+    background: transparent !important;
+}
+.quality-box h6{
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+.footer-subscribe .btn:hover{
+    color: #000000;
+}
 @media only screen and (min-width:1920px){
 
 	.container-fluid{
@@ -1251,6 +1323,9 @@ header .navbar-nav.me-auto{
     .spaceleft-right{
         padding: 0px 20px;
     }
+    .some-features.key-features .thumb-style{
+        height: 540px;
+    }
 }
 @media only screen and (max-width:991px){
 
@@ -1358,6 +1433,7 @@ header .navbar-nav.me-auto{
     }
     .banner-section-wrapper p{
         font-size: 24px;
+        line-height: 40px;
     }
     .banner-section-wrapper.rounded-corner-banners{
         padding: 150px 0px 100px;
@@ -1368,9 +1444,18 @@ header .navbar-nav.me-auto{
     .banner-image{
         margin-top: 40px;
     }
+    .quality-box{
+        margin-bottom: 60px;
+    }
 }
 @media only screen and (max-width:767px){
 
+    .layer-text .section-title.margin-bottom-100{
+        margin-bottom: 60px;
+    }
+    .some-features.key-features .thumb-style{
+        height: auto;
+    }
     .navbar .button-group{
         margin: 0px 20px;
     }
@@ -1617,7 +1702,7 @@ header .navbar-nav.me-auto{
         padding: 160px 0px 80px;
     }
     .automate-management-section{
-        padding: 80px 0px;
+        padding: 40px 0px;
     }
     .margin-top-100 {
         margin-top: 60px;
@@ -1675,5 +1760,15 @@ header .navbar-nav.me-auto{
     }
     .tabimage {
         width: 200px;
+    }
+    .quality-icon{
+        width:180px;
+        margin: auto;
+    }
+    .quality-icon img{
+        width:100%;
+    }
+    .layer-text .section-title.margin-bottom-100{
+        margin-bottom: 40px;
     }
 }
